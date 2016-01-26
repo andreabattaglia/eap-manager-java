@@ -9,7 +9,6 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.LinkedList;
 import java.util.List;
-import java.util.Map.Entry;
 
 import javax.annotation.PostConstruct;
 import javax.enterprise.context.ApplicationScoped;
@@ -22,14 +21,13 @@ import com.redhat.utils.eapmanager.configuration.EnvironmentConfigurationManager
 import com.redhat.utils.eapmanager.constants.MessageConstants;
 import com.redhat.utils.eapmanager.exceptions.EAPManException;
 import com.redhat.utils.eapmanager.input.EapManagerCLI;
-import com.redhat.utils.eapmanager.systemc.ApplicationScopedClass;
 
 /**
  * @author Andrea Battaglia (Red Hat)
  *
  */
 @ApplicationScoped
-public class EapManagerCLIImpl 
+public class EapManagerCLIImpl
         implements EapManagerCLI {
     @Inject
     private Logger LOG;

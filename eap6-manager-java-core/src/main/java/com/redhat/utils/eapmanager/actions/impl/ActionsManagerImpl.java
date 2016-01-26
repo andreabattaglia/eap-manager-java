@@ -1,5 +1,5 @@
 /*
- * 
+ *
  */
 package com.redhat.utils.eapmanager.actions.impl;
 
@@ -18,10 +18,9 @@ import org.slf4j.Logger;
 
 import com.redhat.utils.eapmanager.actions.Action;
 import com.redhat.utils.eapmanager.actions.ActionManager;
-import com.redhat.utils.eapmanager.systemc.ApplicationScopedClass;
 
 @ApplicationScoped
-public class ActionsManagerImpl 
+public class ActionsManagerImpl
         implements ActionManager {
     @Inject
     private Logger LOG;

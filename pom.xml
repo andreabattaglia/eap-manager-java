@@ -51,10 +51,10 @@
     </properties>
 
     <modules>
-        <module>../eap6-manager-java-core</module>
-        <module>../eap6-manager-java-web</module>
-        <module>../eap6-manager-java-standalone</module>
-        <module>../eap6-manager-java-cli</module>
-        <module>../eap6-manager-java-gui</module>
+        <module>eap6-manager-java-core</module>
+        <module>eap6-manager-java-web</module>
+        <module>eap6-manager-java-standalone</module>
+        <module>eap6-manager-java-cli</module>
+        <module>eap6-manager-java-gui</module>
     </modules>
 </project>

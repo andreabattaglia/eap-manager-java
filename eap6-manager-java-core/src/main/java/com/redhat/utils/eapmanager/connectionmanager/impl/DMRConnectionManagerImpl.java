@@ -9,12 +9,10 @@ import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
 
 import org.jboss.as.cli.scriptsupport.CLI;
-import org.jboss.as.controller.client.ModelControllerClient;
 import org.slf4j.Logger;
 
 import com.redhat.utils.eapmanager.actions.dto.env.EnvironmentDTO;
 import com.redhat.utils.eapmanager.connectionmanager.DMRConnectionManager;
-import com.redhat.utils.eapmanager.systemc.ApplicationScopedClass;
 import com.redhat.utils.eapmanager.utils.annotations.Startup;
 
 @ApplicationScoped
